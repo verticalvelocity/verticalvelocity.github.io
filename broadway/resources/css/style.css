@@ -33,8 +33,6 @@ h4 {
   font-size: 23px;
   font-weight: bold;
   background-image:url("../images/the-flatiron-building.png");
-  display: block;
-  margin: auto
   color: white;
 }
 
@@ -47,6 +45,20 @@ h5 {
 
 .top {
   background-image:url("../images/the-flatiron-building.png");
-  margin: auto;
-  display: block;
+  background-repeat: no-repeat;
+}
+
+li {
+  color:white;
+  font-size: 18px;
+  list-style: none;
+}
+
+a {
+  color: white;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
