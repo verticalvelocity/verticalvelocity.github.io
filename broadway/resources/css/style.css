@@ -1,7 +1,7 @@
 * {
   font-family: Helvetica;
   text-align: center;
-  color: white;
+  // color: white;
 }
 
 h1 {
@@ -30,10 +30,16 @@ p {
 h4 {
   font-size: 23px;
   font-weight: bold;
-  background-image: url("./resources/images/the-flatiron.building.png");
+  background-image: url("./resources/images/the-flatiron-building.png");
 }
 
 h5 {
   font-size: 11px;
   background-color: dimgray;
+  color: white;
+  text-align: left;
+}
+
+.top {
+  background-image: url("./resources/images/the-flatiron-building.png")
 }
